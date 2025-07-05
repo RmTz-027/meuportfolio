@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfólio</title>
+  <link rel="stylesheet" href="estilo.css">  
+</head>
+<body>
+  
+<div class="container-apresentacao">  
+  <div class="menu">
+  <ul>
+    <li class="projetos-drop">
+          <a href="javascript:void(0)" class="projetos-btn">Projetos</a>
+            <div class="projetos-conteudo">
+              <a href="#">Auditoria Estoque</a>
+              <a href="#">Auditoria Pedidos</a>
+              <a href="#">Site Studio de Beleza</a>
+              <a href="#">Site Controle Financeiro</a>
+            </div>
+        </li>
+      <li class="sociais-drop">
+            <a href="javascript:void(0)" class="sociais-btn">Sociais</a>
+              <div class="sociais-conteudo">
+                  <a href="https://www.linkedin.com/in/ramonmadeiratomaz/" target="_blank">LinkedIn</a>
+                  <a href="https://github.com/ramonmadeiratomaz" target="_blank">GitHub</a>
+                  <a href="https://www.instagram.com/ramonmadeiratomaz/" target="_blank">Instagram</a>
+              </div>
+        </li>
+    <li class="contato-drop">
+          <a href="javascript:void(0)" class="contato-btn">Contato</a>
+          <div class="contato-conteudo">
+            <p>ramonmadeira5@gmail.com</p>
+            <p>(27) 9 9790-3765</p>
+          </div>
+      </li>
+    </ul>  
+  </div>   
+    <div class="texto">
+      <h1>Sobre Mim</h1>
+      <p>Meu nome é Ramon Madeira Tomaz, tenho 25 anos, nasci na data 19/05/2000.<br>
+      Atualmente trabalho na empresa KaBuM!, empresa internalizada pela Magalu. Atuo na área da logística, no Centro de Destribuição localizado em Viana Espírito Santo. Estou aqui há quase 3 anos exercendo a função de Prevenção de Perdas.</p>          
+    <p>A paixão pela computação na minha vida começou cedo, desde criança acompanho meu irmão mais velho utilizando computadores, jogando video games e, por ter acesso nesse período, logo me encantei por esse mundo, principalmente pelos games.
+    Sempre tive a vontade de aprender a criar com as minhas próprias mãos, isso não é só referente a computação, se for algo que me chame a atenção, eu vou me esforçar para aprender.   
+    </p>
+    </div>    
+     <div class="img-eu">
+      <img src="imagens/eu.png" alt="Foto minha" style="max-width: 80%; width: auto; border-radius: 10px;">
+    </div>  
+  <div class="formacao">
+    <h2>Formação</h2>
+    <p>Atualmente estou cursando Análise e Desenvolvimento de Sistemas na Universidade UniCesumar. <br> 
+    Além da Universidade, também aprendo com cursos externos, como por exemplo: Alura, Google Cloud Skills, Portal do Saber (Plataforma exclusivas para colaboradores da Magazine Luiza), YouTube, entre outros... <br>
+    Hoje tenho praticidade em HTML, CSS e atualmente estou práticando JavaScript.
+    </p>
+  </div>
+  <div class="projetos">
+    <h2 style="text-align: center;">Projetos</h2>
+    <p>Tenho alguns projetos desenvolvidos para a área em que trabalho envolvendo planilhas e outros projetos pessoais.</p>
+
+    
+  <div class="carrocel-projetos" id="carrocelProjetos">    
+    <div class="setas">
+      <div class="seta-direita" id="setaDir">➡️</div>
+      <div class="seta-esquerda" id="setaEsq">⬅️</div>
+    </div>
+   <div class="audEstoque" id="audEstoque" style="display: block;">
+    <h2 style="text-align: center;">Auditoria de Estoque</h2>
+    <img src="imagens/interfaceestoque.jpeg" alt="interface de auditoria de estoque">
+    <p style="padding: 15px; text-align: center;">Para esta auditoria, criei uma interface em que é possível obter a quantidade de produtos que estão armazenados em determinado local, registrar os produtos validados, registrar inconformidades e salvar observações, registrando posteriormente toda auditoria em uma planilha.<br>Todas essas implementações influenciaram positivamente no setor, melhorando a qualidade das auditorias, dando agilidade e podendo registrar informações que antes eram difíceis de se conseguir no momento da auditoria. <br><br> Nesses projetos foram utilizados HTML, CSS e o Google Apps Script, linguagem do Google baseada em JavaScript e também é utilizado um banco de dados próprio do KaBuM! disponibilizado no GK-e Manager</p>
+
+   </div>
+   <div class="audPedidos" id="audPedidos" style="display:none;">
+    <h2 style="text-align: center;">Auditoria de Pedidos</h2>
+    <img src="imagens/interfacepedido.jpeg" alt="interface de auditoria de pedidos">
+    <p style="padding: 15px; text-align: center;">Para esta auditoria, criei uma interface para que seja possível observar as informações dos pedidos selecionados de imediato, para que além de validarmos a embalagem, validarmos também algumas informações importantes do pedidos.</p>
+
+    <p>Todas essas implementações influenciaram positivamente no setor, melhorando a qualidade das auditorias, dando agilidade e podendo registrar informações que antes eram difíceis de se conseguir no momento da auditoria.Nesses projetos foram utilizados HTML, CSS e o Google Apps Script, linguagem do Google baseada em JavaScript e também é utilizado um banco de dados próprio do KaBuM! disponibilizado no GK-e Manager</p>    
+
+    </div>
+  </div>
+  </div>  
+</div>
+  <script src="script.js"></script>
+</body>
+</html>
